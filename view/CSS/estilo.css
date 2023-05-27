@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.login{
+    background: #0df053;
+}
+/*Boton Whatsapp*/
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+}
+/*fin boton whatsapp*/
+
+/*MENU*/
+.navegacion{
+    position: fixed;
+    width: 3rem;
+    height: 100%;
+    background-color: rgba(11, 169, 193, 0.475);
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 2.5rem;
+}
+
+.navegacion:hover{
+width: 11.3rem;
+}
+.navegacion ul{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.navegacion ul li{
+    width: 200%;
+    list-style: none;
+}
+
+li:hover{
+    align-items: center;   
+}
+
+a:hover{
+    transform: scale(1.1,1.1);
+}
+
+.navegacion ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navegacion ul li a .icono{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+/*Fin del menu*/
